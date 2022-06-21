@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blood_type">blood_type
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+
+    </string-array>
+
+    <string-array name="user_type">
+        <item>Donor</item>
+        <item>Hospital</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string-array name="announcement_status">
+        <item>Active</item>
+        <item>Closed</item>
+    </string-array>
+
+
+    <string-array name="cities">
+        <item>Ryiadh</item>
+        <item>Jedda</item>
+        <item>Dammam</item>
+        <item>Qaseem</item>
+        <item>Hael</item>
+        <item>Khobar</item>
+    </string-array>
+
+    <string-array name="requesttype">
+        <item>At Hospital</item>
+        <item>At Home</item>
+    </string-array>
+
+
+    <string-array name="requestresult">
+        <item>approved</item>
+        <item>rejected</item>
+        <item>pending</item>
+    </string-array>
+
+    <string-array name="quantity">quantity
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+
+
+</resources>
