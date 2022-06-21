@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mage"
+    tools:context=".AddRequest">
+
+  <Button
+      android:id="@+id/back"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:background="@drawable/back2" />
+
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="130dp"
+      android:layout_height="112dp"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="20dp"
+      app:srcCompat="@drawable/logo1" />
+
+  <TextView
+      android:id="@+id/requesttitel"
+      android:layout_width="wrap_content"
+      android:layout_height="40dp"
+      android:layout_below="@id/imageView2"
+      android:layout_centerHorizontal="true"
+      android:text="Add Requests"
+      android:textColor="@color/design_default_color_error"
+      android:textSize="20dp"
+      android:textStyle="bold" />
+
+
+  <TextView
+      android:id="@+id/anidl"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="180dp"
+      android:text="Announcement ID"
+      android:textColor="#853443"
+      android:textSize="15dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/anid"
+      android:layout_width="200dp"
+      android:layout_height="30dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="180dp"
+      android:layout_toRightOf="@id/anidl"
+      android:textColor="#853443"
+      android:textSize="15dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/andate"
+      android:layout_width="200dp"
+      android:layout_height="30dp"
+      android:layout_below="@id/anid"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:layout_toRightOf="@id/anidl"
+      android:textColor="#853443"
+      android:textSize="15dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/blodtype"
+      android:layout_width="200dp"
+      android:layout_height="30dp"
+      android:layout_below="@id/andate"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:layout_toRightOf="@id/anidl"
+      android:textColor="#853443"
+      android:textSize="15dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/hname"
+      android:layout_width="200dp"
+      android:layout_height="30dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:layout_toRightOf="@id/anidl"
+      android:layout_below="@id/blodtype"
+      android:textColor="#853443"
+      android:textSize="15dp"
+      android:textStyle="bold" />
+  <TextView
+      android:id="@+id/hlocation"
+      android:layout_width="200dp"
+      android:layout_height="30dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:layout_toRightOf="@id/anidl"
+      android:layout_below="@id/hname"
+      android:textColor="#853443"
+      android:textSize="15dp"
+      android:textStyle="bold" />
+
+  <EditText
+      android:id="@+id/quantity"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/hlocation"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:layout_toRightOf="@id/anidl"
+      android:enabled="false"
+      android:textColor="#853443"
+      android:textSize="15dp"
+      android:textStyle="bold" />
+  <TextView
+      android:id="@+id/andatel"
+      android:layout_below="@id/anidl"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:text="Announcement Date"
+      android:textColor="#853443"
+      android:textSize="15dp"
+      android:textStyle="bold" />
+  <TextView
+      android:id="@+id/bloodtypel"
+      android:layout_below="@id/andatel"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:text="Blood Type"
+      android:textColor="#853443"
+      android:textSize="15dp"
+      android:textStyle="bold" />
+  <TextView
+      android:id="@+id/hnamel"
+      android:layout_below="@id/bloodtypel"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:text="Hospital Name"
+      android:textColor="#853443"
+      android:textSize="15dp"
+      android:textStyle="bold" />
+  <TextView
+      android:id="@+id/hlocationl"
+      android:layout_below="@id/hnamel"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:text="Hospital Location"
+      android:textColor="#853443"
+      android:textSize="15dp"
+      android:textStyle="bold" />
+  <TextView
+      android:id="@+id/quantityl"
+      android:layout_below="@id/hlocationl"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:text="Quantity"
+      android:textColor="#853443"
+      android:textSize="15dp"
+      android:textStyle="bold" />
+
+  <EditText
+      android:id="@+id/requestdate"
+      android:layout_width="200dp"
+      android:layout_height="45dp"
+      android:layout_below="@id/requesttype"
+      android:layout_marginStart="150dp"
+      android:layout_marginTop="20dp"
+      android:visibility="invisible"
+      android:layout_marginBottom="13dp" />
+
+  <TextView
+      android:id="@+id/annstatus"
+      android:layout_width="100dp"
+      android:layout_height="30dp"
+      android:layout_marginStart="30dp"
+      android:layout_marginTop="50dp"
+      android:layout_toRightOf="@id/imageView2"
+      android:text=" "
+      android:textColor="#853443"
+      android:textSize="20dp"
+      android:textStyle="bold" />
+
+
+  <TextView
+      android:id="@+id/reqestl"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_below="@id/quantityl"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:text="Request Type"
+      android:textColor="#853443"
+      android:textSize="15dp"
+      android:textStyle="bold"
+      android:visibility="invisible" />
+
+  <TextView
+      android:id="@+id/requestdatel"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_below="@id/requesttype"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="20dp"
+      android:text="Request date"
+      android:textColor="#853443"
+      android:textSize="15dp"
+      android:textStyle="bold"
+      android:visibility="invisible" />
+
+  <Spinner
+      android:id="@+id/requesttype"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/quantityl"
+      android:layout_marginStart="50dp"
+      android:layout_marginTop="10dp"
+      android:visibility="invisible"
+      android:layout_toRightOf="@id/reqestl"
+      android:entries="@array/requesttype" />
+
+  <Spinner
+      android:id="@+id/announcementstaus"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="80dp"
+      android:entries="@array/announcement_status"
+
+      android:visibility="invisible" />
+
+
+  <Button
+      android:id="@+id/btnsubmit"
+      android:layout_width="203dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/requestdate"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="60dp"
+      android:background="@drawable/button"
+      android:text="Submit"
+      android:textColor="@color/white" />
+
+  <Button
+      android:id="@+id/btnremove"
+      android:layout_width="46dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="60dp"
+      android:layout_marginTop="120dp"
+      android:background="@drawable/delete_24"
+      android:textColor="@color/white"
+      android:visibility="invisible" />
+
+  <Button
+      android:id="@+id/btnDate"
+      android:layout_width="90dp"
+      android:layout_height="40dp"
+      android:layout_below="@id/requestdatel"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="16dp"
+      android:background="@drawable/button"
+      android:text="Donaton date"
+      android:textColor="@color/white"
+      android:visibility="invisible" />
+
+  <EditText
+      android:id="@+id/donationhdate"
+      android:layout_width="200dp"
+      android:layout_height="45dp"
+      android:layout_below="@id/requestdatel"
+      android:layout_marginStart="150dp"
+      android:visibility="invisible"
+      android:layout_marginTop="10dp" />
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+      android:id="@+id/bottomNavigation"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_alignParentBottom="true"
+      android:background="@color/white"
+      app:menu="@menu/menu2"
+      app:itemIconTint="@color/black"
+      ></com.google.android.material.bottomnavigation.BottomNavigationView>
+</RelativeLayout>
