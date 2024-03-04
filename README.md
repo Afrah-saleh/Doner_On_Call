@@ -36,11 +36,11 @@ Java is a versatile and widely-used programming language, known for its portabil
 ## Emphasizing Compatibility and Performance
 
 While the AVD Manager provides a virtual testing environment, we acknowledge that emulators may sometimes be slower than actual devices. Therefore, we recommend testing on physical devices whenever possible to ensure optimal performance and user experience.
-## Screenshots: 
-![Picture25](https://github.com/Afrah-saleh/Doner_On_Call/assets/62013951/7666f1bd-d584-47b8-8390-a35102c7136e | width=400)
- ![Picture1](https://github.com/Afrah-saleh/Doner_On_Call/assets/62013951/b5c49c72-9c37-496d-8be8-0a6d94d62e57 | width=400)
+## Screenshots:
 
+<img src="https://github.com/Afrah-saleh/Doner_On_Call/assets/62013951/7666f1bd-d584-47b8-8390-a35102c7136e" width="400" />
 
+<img src="https://github.com/Afrah-saleh/Doner_On_Call/assets/62013951/b5c49c72-9c37-496d-8be8-0a6d94d62e57" width="400" />
 
 ## Conclusion
 
