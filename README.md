@@ -1,4 +1,3 @@
-![Picture26](https://github.com/Afrah-saleh/Doner_On_Call/assets/62013951/e9bc48c8-f66a-4e35-9f63-37668d6c1e49)
 # Donor On Call
 
 Our Donor On Call project is focused on creating an Android application to facilitate a seamless connection between donors, hospitals, and patients. The application is aimed at reducing the time spent in the donation process and providing a trusted platform for all parties involved. Below, we elaborate on the development tools that are instrumental in building our application, all of which are centered around Java, the default programming language for Android app development.
