@@ -1,4 +1,4 @@
-
+![Picture26](https://github.com/Afrah-saleh/Doner_On_Call/assets/62013951/e9bc48c8-f66a-4e35-9f63-37668d6c1e49)
 # Donor On Call
 
 Our Donor On Call project is focused on creating an Android application to facilitate a seamless connection between donors, hospitals, and patients. The application is aimed at reducing the time spent in the donation process and providing a trusted platform for all parties involved. Below, we elaborate on the development tools that are instrumental in building our application, all of which are centered around Java, the default programming language for Android app development.
@@ -38,11 +38,16 @@ Java is a versatile and widely-used programming language, known for its portabil
 While the AVD Manager provides a virtual testing environment, we acknowledge that emulators may sometimes be slower than actual devices. Therefore, we recommend testing on physical devices whenever possible to ensure optimal performance and user experience.
 ## Screenshots:
 
-<img src="https://github.com/Afrah-saleh/Doner_On_Call/assets/62013951/7666f1bd-d584-47b8-8390-a35102c7136e" width="400" />
+<img src="https://github.com/Afrah-saleh/Doner_On_Call/assets/62013951/7666f1bd-d584-47b8-8390-a35102c7136e" width="200" />
 
-<img src="https://github.com/Afrah-saleh/Doner_On_Call/assets/62013951/b5c49c72-9c37-496d-8be8-0a6d94d62e57" width="400" />
+<img src="https://github.com/Afrah-saleh/Doner_On_Call/assets/62013951/b5c49c72-9c37-496d-8be8-0a6d94d62e57" width="200" />
+<img src="https://github.com/Afrah-saleh/Doner_On_Call/assets/62013951/7b7f65d2-d6e2-48ec-9cfe-6ee99507d03b" width="200" />
+<img src="https://github.com/Afrah-saleh/Doner_On_Call/assets/62013951/babc1258-2d58-4e00-8471-bf5f95e1d484" width="200" />
+<img src="https://github.com/Afrah-saleh/Doner_On_Call/assets/62013951/3d62fc71-5389-4de4-b731-422bad4197d3" width="200" />
 
 ## Conclusion
+
+
 
 The Donor On Call project leverages a suite of advanced tools and technologies to deliver a robust and user-friendly Android application. By utilizing Java and the comprehensive tools provided by the Android ecosystem, we aim to create an application that meets the needs of donors, hospitals, and patients, contributing to a more efficient and effective donation process.
 
